@@ -18,6 +18,7 @@ width: 100%;
 }
 .img3 {
     width: 100%;
+
 }
 
 .topline {
@@ -133,9 +134,11 @@ opacity: 0.5;
     margin-right: 30px;
     margin-top: 50px;
 }
-.text {
-    color: white;
+#text {
+    color: black;
     font-size: 50px;
+    width: 400px;
+    height: 200px;
 }
 .text1 {
     color: white;

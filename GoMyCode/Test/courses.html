@@ -41,22 +41,23 @@
             </div>
         <h1 class='Feedback'>Feedback</h1>
         <br>
-        <button>B</button>
-        <button>I</button>
-        <button>Underline</button>
-        <select>
-            <option>20px</option>
-            <option>30px</option>
-            <option>40px</option>
+        <button onclick="bold()">B</button>
+        <button onclick="italic()">I</button>
+        <button onclick="underline()">Underline</button>
+        <select id='select1' onchange="fontsize()" >
+            <option value="20px"   >20px</option>
+            <option value="30px"  >30px</option>
+            <option value="40px"  >40px</option>
         </select>
-        <select>
+        <select id="select2" onchange="fontstyle()">
             <option>Arial</option>
             <option>Verdana</option>
             <option>Geneva</option>
         </select>
         <br>
-        <textarea cols="40" rows="5"></textarea>
+        <textarea cols="40" rows="5" id="text"></textarea>
     </center>
+    <script src="js/main.js"></script> 
 </body>
 
 </html>
