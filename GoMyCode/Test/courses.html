@@ -1,53 +1,110 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 </head>
+
 <body>
-        <div class="Headline">
-                <div class="logo">
-                        <img src="https://gomycode.tn/images/section2GMCLogo.png" class="logo1">
-                </div>
-            
-            <div class="topline">
-              <div class="words">
-        
+    <div class="Headline">
+        <div class="logo">
+            <img src="https://gomycode.tn/images/section2GMCLogo.png" class="logo1">
+        </div>
+
+        <div class="topline">
+            <div class="words">
+
                 <a href="index.html">Home</a>
-        
+
                 <a href="courses.html">Courses</a>
-            
+
                 <a href="contact.html">Contact</a>
-                </div>
             </div>
         </div>
+    </div>
     <center>
         <div class='h'>
-                <h1 class="course">Courses</h1>
+            <h1 class="course">Courses</h1>
         </div>
-        <div class="boxes" >
-                <img class='image-box' src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel.png">
-                <img class='image-box' src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel1.png" alt="C:\Users\iLyeSs Chebbi\Desktop\GoMyCode\Test\res\6.png">
-                <img class='image-box' src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel2.png" alt="C:\Users\iLyeSs Chebbi\Desktop\GoMyCode\Test\res\7.png">
-        </div>
-        <div class="boxes" >
-                <img class='image-box' src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel3.png" alt="C:\Users\iLyeSs Chebbi\Desktop\GoMyCode\Test\res\8.png">
-                <img class='image-box' src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel4.png" alt="C:\Users\iLyeSs Chebbi\Desktop\GoMyCode\Test\res\9.png">
-                <img class='image-box' src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel5.png" alt="C:\Users\iLyeSs Chebbi\Desktop\GoMyCode\Test\res\10.png">
-        </div>
-        <div class="boxes" >
-                <img class='image-box' src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel6.png" alt="C:\Users\iLyeSs Chebbi\Desktop\GoMyCode\Test\res\11.png">
-                <img class='image-box' src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel7.png" alt="C:\Users\iLyeSs Chebbi\Desktop\GoMyCode\Test\res\12.png">
-                <img class='image-box' src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel8.png" alt="C:\Users\iLyeSs Chebbi\Desktop\GoMyCode\Test\res\13.png">
+        <div class="boxes">
+            <div class="image-container">
+                <img class='image-box'
+                src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel.png"
+                alt="C:\Users\iLyeSs Chebbi\Desktop\GoMyCode\Test\res\6.png">
+                <button id="hide"> <p>  <a href="#ex1" rel="modal:open">view more</a> </p> </button>
             </div>
+             <div class="image-container2">
+                <img class='image-box'
+                src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel1.png"
+                alt="C:\Users\iLyeSs Chebbi\Desktop\GoMyCode\Test\res\6.png">
+                <button id="hide2"> <p>  <a href="#ex1" rel="modal:open">view more</a> </p> </button>
+            </div>
+            <div class="image-container3">
+               <img class='image-box'
+                src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel2.png"
+                alt="C:\Users\iLyeSs Chebbi\Desktop\GoMyCode\Test\res\7.png">
+                <button id="hide3"> <p>  <a href="#ex1" rel="modal:open">view more</a> </p> </button>
+            </div>
+            
+
+        </div>
+     <div class="boxes">
+        <div class="image-container4">
+            <img class='image-box'
+                src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel3.png"
+                alt="C:\Users\iLyeSs Chebbi\Desktop\GoMyCode\Test\res\8.png">
+                <button id="hide4"> <p>  <a href="#ex1" rel="modal:open">view more</a> </p> </button>
+        </div>
+        <div class="image-container5">
+            <img class='image-box'
+                src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel4.png"
+                alt="C:\Users\iLyeSs Chebbi\Desktop\GoMyCode\Test\res\9.png">
+                <button id="hide5"> <p>  <a href="#ex1" rel="modal:open">view more</a> </p> </button>
+        </div>
+
+        <div class="image-container6">
+            <img class='image-box'
+                src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel5.png"
+                alt="C:\Users\iLyeSs Chebbi\Desktop\GoMyCode\Test\res\10.png">
+                <button id="hide6"> <p>  <a href="#ex1" rel="modal:open">view more</a> </p> </button>
+        </div>
+     </div>
+        <div class="boxes">
+                <div class="image-container7">
+            <img class='image-box'
+                src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel6.png"
+                alt="C:\Users\iLyeSs Chebbi\Desktop\GoMyCode\Test\res\11.png">
+                <button id="hide7"> <p>  <a href="#ex1" rel="modal:open">view more</a> </p> </button>
+                </div>
+            <div class="image-container8">
+                <img class='image-box'
+                src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel7.png"
+                alt="C:\Users\iLyeSs Chebbi\Desktop\GoMyCode\Test\res\12.png">
+                <button id="hide8"> <p>  <a href="#ex1" rel="modal:open">view more</a> </p> </button>
+                </div>
+           <div class="image-container9">
+                <img class='image-box'
+                src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel8.png"
+                alt="C:\Users\iLyeSs Chebbi\Desktop\GoMyCode\Test\res\13.png">
+                <button id="hide9"> <p>  <a href="#ex1" rel="modal:open">view more</a> </p> </button>
+                </div>
+        </div>
+    
+              
+            
+             
         <h1 class='Feedback'>Feedback</h1>
         <br>
         <button onclick="bold()">B</button>
         <button onclick="italic()">I</button>
         <button onclick="underline()">Underline</button>
-        <select id='select1' onchange="fontsize()" >
-            <option value="20px"   >20px</option>
-            <option value="30px"  >30px</option>
-            <option value="40px"  >40px</option>
+        <select id='select1' onchange="fontsize()">
+            <option value="20px">20px</option>
+            <option value="30px">30px</option>
+            <option value="40px">40px</option>
         </select>
         <select id="select2" onchange="fontstyle()">
             <option>Arial</option>
@@ -57,7 +114,15 @@
         <br>
         <textarea cols="40" rows="5" id="text"></textarea>
     </center>
-    <script src="js/main.js"></script> 
+    <div id="ex1" class="modal">
+            <p>This is GoMyCode Track.
+                <br>
+                Each track has its own goal.
+                <br>
+                By adopting this track, you chose your own goal. 
+            </p>
+          </div>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

@@ -73,9 +73,10 @@ width: 100%;
 .image-box {
     height: 250px;
     width: 250px;
-    margin-top: 50px;
+   /* margin-top: 50px;
     margin-left: 50px;
-    
+    */
+    margin: 30px;
 }
 .contacts {
  color: white;
@@ -147,4 +148,116 @@ opacity: 0.5;
 .more {
     color: white;
     font-size: 15px;
+}
+
+#hide {
+  
+ display: none;
+ position: absolute;
+ top:42%;
+ left:36%;
+ border-radius: 13%;
+ 
+}
+
+.image-container {
+    display: inline-block;
+    position: relative;
+    
+    
+}
+
+.image-container2 {
+    display:inline-block;
+    position: relative;
+}
+
+#hide2 {
+    display: none;
+    position: absolute;
+    top:42%;
+    left:36%;
+    border-radius: 13%;
+}
+.image-container3 {
+    display:inline-block;
+    position: relative;
+}
+
+#hide3 {
+    display: none;
+    position: absolute;
+    top:42%;
+    left:36%;
+    border-radius: 13%;
+}
+#hide4 {
+    display: none;
+    position: absolute;
+    top:42%;
+    left:36%;
+    border-radius: 13%;
+}
+#hide5 {
+    display: none;
+    position: absolute;
+    top:42%;
+    left:36%;
+    border-radius: 13%;
+}
+#hide6 {
+    display: none;
+    position: absolute;
+    top:42%;
+    left:36%;
+    border-radius: 13%;
+}
+.image-container4 {
+    display:inline-block;
+    position: relative;
+}
+.image-container5 {
+    display:inline-block;
+    position: relative;
+}
+.image-container6 {
+    display:inline-block;
+    position: relative;
+}
+#hide7 {
+    display: none;
+    position: absolute;
+    top:42%;
+    left:36%;
+    border-radius: 13%;
+}
+#hide8 {
+        display: none;
+        position: absolute;
+        top:42%;
+        left:36%;
+        border-radius: 13%;
+    }
+#hide9 {
+        display: none;
+        position: absolute;
+        top:42%;
+        left:36%;
+        border-radius: 13%;
+}
+.image-container7 {
+    display:inline-block;
+    position: relative;
+}
+.image-container8 {
+    display:inline-block;
+    position: relative;
+}
+.image-container9 {
+    display:inline-block;
+    position: relative;
+}
+a {
+    text-decoration: none;
+
 }
