@@ -84,3 +84,18 @@ $('document').ready(function() {
         $('#hide9').toggle()
   })
   })  
+  $('document').ready(function() {
+    $('.pic1').hover(function () {
+        $('#hide10').toggle()
+    })
+})
+$('document').ready(function() {
+    $('.pic2').hover(function () {
+        $('#hide11').toggle()
+    })
+})
+$('document').ready(function() {
+    $('.pic3').hover(function () {
+        $('#hide12').toggle()
+    })
+})

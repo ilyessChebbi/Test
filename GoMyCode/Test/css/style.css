@@ -7,8 +7,8 @@ background-image:  Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.
 
 }
 .logo1 {
-    height: 80px;
-    width: 80px;
+    height: 50px;
+    width: 50px;
 }
 .img1 {
 width: 100%;
@@ -124,16 +124,16 @@ width: 100%;
     height: 25px;
     border-radius: 5px;
 }
-.image-box:hover {
+/*.image-box:hover {
 opacity: 0.5;
-}
+}*/
 .Feedback {
     color: white;
 }
 .photos .viewmore {
-    margin-left: 50px;
-    margin-right: 30px;
-    margin-top: 50px;
+height: 250px;
+width: 250px;
+margin: 50px;
 }
 #text {
     color: black;
@@ -162,14 +162,17 @@ opacity: 0.5;
 
 .image-container {
     display: inline-block;
-    position: relative;
-    
-    
+    position: relative;    
 }
-
+.image-container:hover {
+    opacity: 0.5;    
+}
 .image-container2 {
     display:inline-block;
     position: relative;
+}
+.image-container2:hover {
+    opacity: 0.5;    
 }
 
 #hide2 {
@@ -182,6 +185,9 @@ opacity: 0.5;
 .image-container3 {
     display:inline-block;
     position: relative;
+}
+.image-container3:hover {
+    opacity: 0.5;    
 }
 
 #hide3 {
@@ -216,13 +222,22 @@ opacity: 0.5;
     display:inline-block;
     position: relative;
 }
+.image-container4:hover {
+    opacity: 0.5;    
+}
 .image-container5 {
     display:inline-block;
     position: relative;
 }
+.image-container5:hover {
+    opacity: 0.5;    
+}
 .image-container6 {
     display:inline-block;
     position: relative;
+}
+.image-container6:hover {
+    opacity: 0.5;    
 }
 #hide7 {
     display: none;
@@ -249,15 +264,91 @@ opacity: 0.5;
     display:inline-block;
     position: relative;
 }
+.image-container7:hover {
+    opacity: 0.5;    
+}
 .image-container8 {
     display:inline-block;
     position: relative;
+}
+.image-container8:hover {
+    opacity: 0.5;    
 }
 .image-container9 {
     display:inline-block;
     position: relative;
 }
+.image-container9:hover {
+    opacity: 0.5;    
+}
 a {
     text-decoration: none;
 
 }
+.homephoto {
+    display: inline-block;
+    position: relative;
+    
+}
+.homephoto:hover {
+    opacity:0.5;
+}
+    
+.homephoto2 {
+    display: inline-block;
+    position: relative;
+}
+.homephoto2:hover {
+    opacity:0.5;
+}
+.homephoto3 {
+    display: inline-block;
+    position: relative;
+}
+.homephoto3:hover {
+    opacity:0.5;
+}
+#hide10 {
+    display: none;
+    position: absolute;
+    top:44%;
+    left:39%;
+    border-radius: 13%
+}
+#hide11 {
+    display: none;
+    position: absolute;
+    top:44%;
+    left:39%;
+    border-radius: 13%
+}
+#hide12 {
+    display: none;
+    position: absolute;
+    top:44%;
+    left:39%;
+    border-radius: 13%
+}
+.navbar-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 150%;
+}
+#new1{
+height: 250px;
+width: 250px;
+margin: 50px;
+}
+#new2{
+
+height: 250px;
+width: 250px;
+margin: 50px;
+}
+
+#new3{
+    height: 250px;
+    width: 250px;
+    margin: 50px;
+    }
