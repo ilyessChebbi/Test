@@ -1,0 +1,354 @@
+body { 
+background-image:  Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%) ,
+
+                   Linear-gradient(127deg, black, black 70.71%) ,
+
+                   Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+
+}
+.logo1 {
+    height: 50px;
+    width: 50px;
+}
+.img1 {
+width: 100%;
+}
+.img2 {
+    width: 100%;
+}
+.img3 {
+    width: 100%;
+
+}
+
+.topline {
+    width: 70%;
+    position: absolute;
+}
+.logo {
+    width: 20%;
+}
+
+.logo , .topline {
+    display: inline-block;
+}
+
+ .words {
+    font-size: 300%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.words a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.photo4 {
+    width: 100%;
+
+}
+.h {
+    width: 100%;
+    height: 450px;
+    padding: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 87px;
+    box-shadow: 0 3px 2px rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+    background-image: url(https://iyadhkhalfallah.github.io/checkpointsGMC/res/webdev3.png);
+}
+.course {
+    font-size: 6em;
+    font-family: 'Bree Serif', serif;
+    color: white;
+    position: relative;
+    top: 30%;
+    text-shadow: 5px 2px rgb(12, 11, 11);
+}
+
+.image-box {
+    height: 250px;
+    width: 250px;
+   /* margin-top: 50px;
+    margin-left: 50px;
+    */
+    margin: 30px;
+}
+.contacts {
+ color: white;
+ font-size: 6em;
+ font-family: 'Bree Serif', serif;
+ position: relative;
+ top: 30%;
+ text-shadow: 5px 2px rgb(12, 11, 11);
+
+}
+.name {
+    color: white;
+    font-size: 110%;
+
+}
+.track {
+    color: white;
+    font-size: 110%;
+}
+.Email {
+    color: white;
+    font-size: 110%;
+}
+.phone {
+    color: white;
+    font-size: 110%;
+
+}
+.label4 {
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+}
+.label3 {
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+}.label2 {
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+}
+.label1 {
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+}
+/*.image-box:hover {
+opacity: 0.5;
+}*/
+.Feedback {
+    color: white;
+}
+.photos .viewmore {
+height: 250px;
+width: 250px;
+margin: 50px;
+}
+#text {
+    color: black;
+    font-size: 50px;
+    width: 400px;
+    height: 200px;
+}
+.text1 {
+    color: white;
+    font-size: 50px;
+}
+.more {
+    color: white;
+    font-size: 15px;
+}
+
+#hide {
+  
+ display: none;
+ position: absolute;
+ top:42%;
+ left:36%;
+ border-radius: 13%;
+ 
+}
+
+.image-container {
+    display: inline-block;
+    position: relative;    
+}
+.image-container:hover {
+    opacity: 0.5;    
+}
+.image-container2 {
+    display:inline-block;
+    position: relative;
+}
+.image-container2:hover {
+    opacity: 0.5;    
+}
+
+#hide2 {
+    display: none;
+    position: absolute;
+    top:42%;
+    left:36%;
+    border-radius: 13%;
+}
+.image-container3 {
+    display:inline-block;
+    position: relative;
+}
+.image-container3:hover {
+    opacity: 0.5;    
+}
+
+#hide3 {
+    display: none;
+    position: absolute;
+    top:42%;
+    left:36%;
+    border-radius: 13%;
+}
+#hide4 {
+    display: none;
+    position: absolute;
+    top:42%;
+    left:36%;
+    border-radius: 13%;
+}
+#hide5 {
+    display: none;
+    position: absolute;
+    top:42%;
+    left:36%;
+    border-radius: 13%;
+}
+#hide6 {
+    display: none;
+    position: absolute;
+    top:42%;
+    left:36%;
+    border-radius: 13%;
+}
+.image-container4 {
+    display:inline-block;
+    position: relative;
+}
+.image-container4:hover {
+    opacity: 0.5;    
+}
+.image-container5 {
+    display:inline-block;
+    position: relative;
+}
+.image-container5:hover {
+    opacity: 0.5;    
+}
+.image-container6 {
+    display:inline-block;
+    position: relative;
+}
+.image-container6:hover {
+    opacity: 0.5;    
+}
+#hide7 {
+    display: none;
+    position: absolute;
+    top:42%;
+    left:36%;
+    border-radius: 13%;
+}
+#hide8 {
+        display: none;
+        position: absolute;
+        top:42%;
+        left:36%;
+        border-radius: 13%;
+    }
+#hide9 {
+        display: none;
+        position: absolute;
+        top:42%;
+        left:36%;
+        border-radius: 13%;
+}
+.image-container7 {
+    display:inline-block;
+    position: relative;
+}
+.image-container7:hover {
+    opacity: 0.5;    
+}
+.image-container8 {
+    display:inline-block;
+    position: relative;
+}
+.image-container8:hover {
+    opacity: 0.5;    
+}
+.image-container9 {
+    display:inline-block;
+    position: relative;
+}
+.image-container9:hover {
+    opacity: 0.5;    
+}
+a {
+    text-decoration: none;
+
+}
+.homephoto {
+    display: inline-block;
+    position: relative;
+    
+}
+.homephoto:hover {
+    opacity:0.5;
+}
+    
+.homephoto2 {
+    display: inline-block;
+    position: relative;
+}
+.homephoto2:hover {
+    opacity:0.5;
+}
+.homephoto3 {
+    display: inline-block;
+    position: relative;
+}
+.homephoto3:hover {
+    opacity:0.5;
+}
+#hide10 {
+    display: none;
+    position: absolute;
+    top:44%;
+    left:39%;
+    border-radius: 13%
+}
+#hide11 {
+    display: none;
+    position: absolute;
+    top:44%;
+    left:39%;
+    border-radius: 13%
+}
+#hide12 {
+    display: none;
+    position: absolute;
+    top:44%;
+    left:39%;
+    border-radius: 13%
+}
+.navbar-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 150%;
+}
+#new1{
+height: 250px;
+width: 250px;
+margin: 50px;
+}
+#new2{
+
+height: 250px;
+width: 250px;
+margin: 50px;
+}
+
+#new3{
+    height: 250px;
+    width: 250px;
+    margin: 50px;
+    }
